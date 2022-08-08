@@ -1,12 +1,4 @@
 // Initialize and add the map
-window.onload = ()=>{
-    const menuBtn = document.querySelector(".humbuger")
-    const mobileNav = document.querySelector(".mobile-nav")
-    menuBtn.addEventListener('click', ()=>{
-      menuBtn.classList.toggle("is-active")
-      mobileNav.classList.toggle("is-active")
-    })
-}
 function initMap() {
     // The location of Uluru
     var russia = { lat: 3.51602, lng: -2.1969 };
