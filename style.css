@@ -16,12 +16,14 @@ body{
 .price_name{
     color: #000;
 }
-
+@media (max-width: 600px) {
+#mobile-menu-btn{
+ display: block;
+}
 nav{
     flex: 1;
     text-align: right;
 }
-
 nav ul{
     display: inline-block;
     list-style-type: none;
